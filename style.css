@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'danger';
+    src: url('BulletproofBB.woff2') format('woff2');
+    font-weight: regular;
+    font-style: regular;
+}
+
+html {
+    font-family: 'danger';
+    font-size: 24px;
+}
+
+body {
+    background-image: url('images/warning\ copy.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.container {
+    width: 40em;
+    height: 40em;
+    margin: 5rem auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    padding: 2rem;
+    padding-top: 2.5rem;
+    /* width: 12rem; */
+}  
+    
+.circle {
+    width: 15rem;
+    height: 15rem;
+    background-color: #000000;
+    border-radius: 50%;
+    color: yellow;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 60%;
+}  
+      
+
+
+img {
+    position: relative;
+    margin-left: 60%;
+    height: 100%;
+    bottom: 16.5rem;
+
+}
